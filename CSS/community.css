@@ -1,0 +1,67 @@
+
+.community-section {
+    padding: 50px 20px;
+    text-align: center; /* Center the text */
+}
+
+.community-section h2 {
+    font-size: 2.5rem;
+    color: #003366; /* Dark blue for heading */
+    margin-bottom: 20px;
+}
+
+.community-section p {
+    font-size: 1.2rem;
+    color: #555; /* Dark gray for text */
+    line-height: 1.6;
+    margin-bottom: 30px; /* Space below paragraph */
+}
+
+.community-features {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between cards */
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+}
+
+.feature-card {
+    background-color: white; /* White background for cards */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    padding: 20px; /* Padding inside the card */
+    width: 280px; /* Fixed width for cards */
+    transition: transform 0.3s ease; /* Smooth scaling effect */
+}
+
+.feature-card h3 {
+    color: #09157b; /* Dark blue for feature headings */
+    margin: 0 0 10px; /* Space below heading */
+    font-size: 1.5rem; /* Font size for headings */
+}
+
+.feature-card p {
+    font-size: 1rem; /* Font size for paragraph */
+    color: #555; /* Dark gray for text */
+    line-height: 1.5; /* Line height for readability */
+}
+
+.feature-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+/* Signup Button */
+.join-us-button {
+    display: inline-block; /* Inline block for padding */
+    background-color: #003366; /* Dark blue button */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding around text */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    font-size: 1.2rem; /* Font size */
+    margin-top: 20px; /* Space above button */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.join-us-button:hover {
+    background-color: #ffcc00; /* Change color on hover */
+}

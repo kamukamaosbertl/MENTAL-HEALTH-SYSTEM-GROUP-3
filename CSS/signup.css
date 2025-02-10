@@ -1,0 +1,114 @@
+/* Reset margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic body styling */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f0f4f8;
+}
+
+/* Center the signup container vertically in the main section */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    padding: 2rem;
+}
+
+/* Signup container styling with more specificity */
+.signup-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Heading style for the signup form */
+.signup-container h2 {
+    color: #333;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+}
+
+/* Label styling */
+.signup-container label {
+    display: block;
+    font-size: 1rem;
+    color: #333;
+    margin-top: 1rem;
+    text-align: left;
+}
+
+/* Input styling for text, email, and password fields */
+.signup-container input[type="text"],
+.signup-container input[type="email"],
+.signup-container input[type="password"] {
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+/* Button styling */
+.signup-container button[type="submit"] {
+    width: 100%;
+    padding: 0.9rem;
+    margin-top: 1.5rem;
+    border: none;
+    background-color: #007bff;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.signup-container button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Error message styling */
+.signup-container .error-message {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+}
+
+/* Success message styling */
+.signup-container .success-message {
+    color: green;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+}
+
+/* Paragraph link styling */
+.signup-container p {
+    font-size: 0.9rem;
+    color: #333;
+    margin-top: 1.5rem;
+}
+
+.signup-container p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.signup-container p a:hover {
+    text-decoration: underline;
+}

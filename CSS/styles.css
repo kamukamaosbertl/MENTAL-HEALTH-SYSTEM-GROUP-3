@@ -1,0 +1,244 @@
+/* Resetting margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9fafb; /* Light background for contrast */
+    color: #333; /* Dark text for readability */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #D4EDDA; /* Soft green header background */
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #003366;
+    padding: 10px 0;
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style-type: none;
+    padding: 15px 0;
+    text-align: center;
+    margin: 0;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #003366;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px 15px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+    transform: scale(1.05);
+}
+
+/* Image Background Section */
+.image-background {
+    position: relative;
+    background-image: url('../images/group therapybg.svg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 60vh; /* Adjusted height to ensure it doesn't overflow */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+
+/* Dark Overlay for Background */
+.image-background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay for readability */
+    z-index: 1;
+}
+
+/* Text Animation Styles */
+.text-animation {
+    font-size: 2rem;
+    font-weight: 700;
+    animation: fadeIn 1s;
+    z-index: 2;
+    position: relative;
+    padding: 0 20px;
+    max-width: 80%;
+}
+
+/* Fade In Animation for Text */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Video Section */
+.video-container {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.video-container h2 {
+    font-size: 2rem;
+    color: #003366;
+    margin-bottom: 20px;
+}
+
+/* Free Trial Section */
+.center-button {
+    text-align: center;
+    margin: 40px 20px;
+    padding: 20px;
+    background-color: #FAF3E0;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.center-button h2 {
+    font-size: 2rem;
+    color: #003366;
+}
+
+.center-button p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.center-button .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    color: #003366;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.center-button .btn:hover {
+    background-color: #ff9900;
+}
+
+/* Join Us Section */
+.join-us {
+    text-align: center;
+    padding: 40px;
+    background-color: #F0F8FF;
+}
+
+.join-us h2 {
+    font-size: 2rem;
+    color: #003366;
+}
+
+.join-us select {
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 1rem;
+    border: 2px solid #003366;
+    border-radius: 5px;
+}
+
+.join-us .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #ffcc00;
+    color: #003366;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.join-us .btn:hover {
+    background-color: #ff9900;
+}
+/* Testimonials Section */
+.testimonials {
+    background-color: #f9fafb;
+    padding: 50px 20px;
+    text-align: center;
+    position: relative;
+}
+
+.testimonials h2 {
+    font-size: 2.5rem;
+    color: #003366;
+    margin-bottom: 30px;
+}
+
+/* Testimonial Box */
+.testimonial-box {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #003366;
+    border-radius: 10px;
+    background-color: #FAF3E0; /* Light background for contrast */
+    color: #333;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    overflow: hidden;
+}
+
+/* Active testimonial box */
+.testimonial-box.active {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+/* Hover effect box */
+.testimonial-box:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Fade in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
