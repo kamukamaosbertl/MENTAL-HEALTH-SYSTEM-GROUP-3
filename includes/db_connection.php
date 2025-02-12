@@ -3,7 +3,7 @@
 $host = 'localhost'; 
 $username = 'root'; 
 $password = ''; 
-$database = 'mentalhealthsupportsystem'; // Your database name
+$database = 'mental health'; // Your database name
 
 // Create the connection
 $conn = new mysqli($host, $username, $password, $database);
