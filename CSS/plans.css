@@ -1,0 +1,49 @@
+/* Plans Section */
+.plans-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.plans-section h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #003366; /* Darker blue for headings */
+    font-weight: 700;
+}
+
+.plans-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.plan {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.plan h3 {
+    background-color: #09157b; /* Dark blue */
+    color: white;
+    padding: 15px 0;
+    border-radius: 8px 8px 0 0;
+    margin: -20px -20px 20px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.plan p {
+    font-size: 1rem;
+    color: #555; /* Dark gray for the description text */
+    line-height: 1.6;
+}
+
+.plan:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}

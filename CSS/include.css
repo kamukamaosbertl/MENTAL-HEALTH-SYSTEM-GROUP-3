@@ -1,0 +1,109 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for consistent layout */
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Header Styling */
+header {
+    background-color: #003366; /* Dark blue similar to footer */
+    color: white;
+    padding: 20px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Triangle Panel Styling */
+.triangle-panel {
+    background: #f7e8a0; /* Soft yellow/gold background */
+    position: relative;
+    text-align: center;
+    padding: 50px 0;
+    margin-top: 20px;
+}
+
+.triangle-panel::before {
+    content: '';
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 40px solid #f7e8a0; /* Same color as the panel */
+}
+
+.triangle-panel .panel-content h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.triangle-panel .panel-content p {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #003366; /* Dark blue similar to header */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto; /* Center the footer content */
+}
+
+footer p {
+    margin: 0;
+}

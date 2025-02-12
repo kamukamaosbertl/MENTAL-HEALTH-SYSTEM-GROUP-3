@@ -1,0 +1,33 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Heading style for About section */
+h1 {
+    color: white;
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* About Section styling with specific class targeting */
+.about-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Paragraph styling inside About Section */
+.about-section p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto;
+}

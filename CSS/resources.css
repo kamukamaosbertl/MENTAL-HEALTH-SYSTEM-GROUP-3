@@ -1,0 +1,116 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+header h1 {
+    font-size: 2.5em; /* Increased font size for more prominence */
+    font-weight: bold;
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style-type: none;
+    padding: 10px 0;
+    margin: 0;
+    background-color: #333;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #2b6cb0;
+    border-radius: 5px;
+}
+
+/* Main Content Styles */
+main {
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Service Description */
+.service-description {
+    max-width: 600px;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #e0f2fe;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Service Description Paragraph */
+.service-description p {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+/* Book Button */
+.book-button {
+    background-color: #3182ce;
+    color: white;
+    padding: 15px 30px; /* Increased padding for a larger button */
+    font-size: 1.2em; /* Increased font size */
+    font-weight: bold;
+    border: none;
+    border-radius: 8px; /* Slightly larger border radius for a smoother look */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Added transform for hover effect */
+}
+
+.book-button:hover {
+    background-color: #2b6cb0;
+    transform: translateY(-2px); /* Subtle lift on hover */
+}
+
+/* Image Section */
+.service-image {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.responsive-image {
+    width: 90%;
+    height: auto;
+    max-width: 450px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styles */
+footer {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: darkslategray;
+    color: white;
+    text-align: center;
+    font-size: 0.9em;
+}

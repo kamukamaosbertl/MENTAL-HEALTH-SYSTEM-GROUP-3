@@ -1,0 +1,88 @@
+/* Reset margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic body styling */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f4f8fb;
+}
+
+/* Center the login container vertically in the main section */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    padding: 2rem;
+}
+
+/* Example of adding more specificity */
+.login-container {
+    width: 100%;
+    max-width: 450px;
+    padding: 2rem;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Example of more specific button style */
+.login-container button[type="submit"] {
+    background-color: #3498db;
+}
+
+/* Add more specificity to label, input, and button styles */
+.login-container label {
+    display: block;
+    font-size: 1rem;
+    color: #34495e;
+    margin-top: 1rem;
+    text-align: left;
+}
+
+.login-container input[type="email"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 0.8rem;
+    margin-top: 0.5rem;
+    border: 1px solid #dfe6e9;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+/* Button hover effect */
+.login-container button[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+/* Error message styling */
+.error-message {
+    color: #e74c3c;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+}
+
+/* Paragraph link styling */
+p {
+    font-size: 0.9rem;
+    color: #7f8c8d;
+    margin-top: 1.5rem;
+}
+
+p a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
