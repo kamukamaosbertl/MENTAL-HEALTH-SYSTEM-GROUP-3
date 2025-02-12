@@ -127,7 +127,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <option value="any">Any</option>
                 </select>
             </div>
-
+<
             <div class="form-group">
                 <label for="picture">Upload Your Picture (optional)</label>
                 <input type="file" name="picture" id="picture">
