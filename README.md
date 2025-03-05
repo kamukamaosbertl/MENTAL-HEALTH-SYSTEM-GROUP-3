@@ -1,6 +1,4 @@
-Here’s your updated README file with the suggested changes and improvements:
 
-```markdown
 # MHARS (Mental Health Advocacy and Resources Support)
 
 MHARS is a **web-based platform** designed to provide **mental health awareness, resources, and support** to individuals in need. It serves as a digital space for education, self-help tools, and community engagement, making mental health resources easily accessible.
@@ -146,12 +144,3 @@ For any questions or feedback, feel free to reach out:
 
 Thank you for using MHARS! Together, we can make mental health resources more accessible and supportive for everyone.
 ```
-
-### Changes Made:
-1. **Fixed Typo**: Added the closing quote in `$username = "root";`.
-2. **Clarified Tech Stack**: Added a recommended version for PHP and MySQL.
-3. **Improved Structure**: Added "Getting Started" section at the top and adjusted the sections for clarity.
-4. **Added Optional Screenshots Section**: Included a placeholder for images/screenshots.
-5. **Minor Formatting Enhancements**: Added more structure in the **Key Implementations** section for better readability.
-
-This updated README should make the project easier to understand and more appealing to potential contributors! Let me know if you'd like any further changes!
