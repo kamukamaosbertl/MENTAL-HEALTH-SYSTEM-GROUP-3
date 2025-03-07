@@ -1,0 +1,31 @@
+# Mental-health (MHARS)
+GROUP 3 SOFTWARE METRICS
+# Mental Health Support System - About Us Page
+
+## 🚀 Overview
+This project is a **Mental Health Support System** designed to provide counseling and mental health advocacy.  
+The **About Us** page has been updated with the following **enhancements**:
+
+### ✅ **New Features Added**
+1. **Mission Statement** - Clearly outlines the purpose of the platform.
+2. **Team Section** - Introduces key team members with images and roles.
+3. **Testimonials** - Displays user feedback to build credibility.
+4. **Contact Information** - Provides an easy way for users to reach out.
+
+### 🎨 **UI & UX Improvements**
+- Implemented a **modern, structured layout** with `box-shadow` and `border-radius`.
+- Used **CSS Flexbox/Grid** for responsive design.
+- Improved **text readability and spacing** for a cleaner look.
+
+
+## 📊 **Software Metrics Implemented**
+We incorporated the following **software engineering metrics** to ensure **code quality, maintainability, and performance**.
+
+### 1️⃣ **Lines of Code (LOC)**
+- Measures the size of the project and tracks growth over time.
+- Helps estimate project complexity.
+
+### 2️⃣ **Cyclomatic Complexity (CC)**
+- Analyzes the number of independent paths in the program.
+- Lower complexity ensures **better maintainability**.
+
