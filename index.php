@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MENTAL HEALTH SUPPORT SERVICE PLATFORM</title>
+    <title>MENTAL HEALTH SUPPORT SERVICE PLATFOR</title>
 
     <!-- Link to External Stylesheets -->
     <link rel="stylesheet" href="CSS/include.css">
