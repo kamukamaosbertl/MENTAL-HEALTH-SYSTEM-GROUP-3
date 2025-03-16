@@ -1,31 +1,64 @@
-# Mental-health (MHARS)
-GROUP 3 SOFTWARE METRICS
-# Mental Health Support System - About Us Page
-
-## 🚀 Overview
-This project is a **Mental Health Support System** designed to provide counseling and mental health advocacy.  
-The **About Us** page has been updated with the following **enhancements**:
-
-### ✅ **New Features Added**
-1. **Mission Statement** - Clearly outlines the purpose of the platform.
-2. **Team Section** - Introduces key team members with images and roles.
-3. **Testimonials** - Displays user feedback to build credibility.
-4. **Contact Information** - Provides an easy way for users to reach out.
-
-### 🎨 **UI & UX Improvements**
-- Implemented a **modern, structured layout** with `box-shadow` and `border-radius`.
-- Used **CSS Flexbox/Grid** for responsive design.
-- Improved **text readability and spacing** for a cleaner look.
+📦 Mental-Health-Metrics 
+│   ├── loc_counter.py          # LOC calculation
+│   ├── halstead_metrics.py     # Halstead’s Metrics
+│   ├── complexity.py           # Cyclomatic Complexity
+│   ├── function_points.py      # Function Points calculation
+│   ├── mental_health_system/   # PHP, JS, HTML, and CSS files
+├── 📜 README.md                # Documentation
 
 
-## 📊 **Software Metrics Implemented**
-We incorporated the following **software engineering metrics** to ensure **code quality, maintainability, and performance**.
+ Software Metrics about lecture 4
+ Software Metrics Implementation for Mental Health System
 
-### 1️⃣ **Lines of Code (LOC)**
-- Measures the size of the project and tracks growth over time.
-- Helps estimate project complexity.
+ Project Overview
+This project implements **Software Metrics** concepts in a web-based **Mental Health System**. It analyzes the complexity, size, and maintainability of the codebase written in **HTML, CSS, JavaScript, and PHP**
 
-### 2️⃣ **Cyclomatic Complexity (CC)**
-- Analyzes the number of independent paths in the program.
-- Lower complexity ensures **better maintainability**.
+📏 Implemented Software Metrics
+ 1️⃣ Lines of Code (LOC)
+- Measures the total number of lines in **HTML, CSS, JS, and PHP** files.
+- Differentiates between **commented lines** and **effective code lines**.
+
+ 2️⃣ Halstead’s Metrics
+- Measures **operators** and **operands** in the source code.
+- Calculates:
+  - **Program Length (N)**
+  - **Program Vocabulary (n)**
+  - **Program Volume (V)**
+  - **Program Difficulty (D)**
+  - **Effort (E)**
+  - **Estimated Bugs (B)**
+
+ 3️⃣ Cyclomatic Complexity (McCabe's Complexity)
+- Determines the **complexity of the control flow** in the program.
+- Higher values indicate **higher complexity and maintenance cost**.
+
+### 4️⃣ Function Points (FP)
+- Measures software **functionality** based on:
+  - **External Inputs (EI)**
+  - **External Outputs (EO)**
+  - **External Inquiries (EQ)**
+  - **Internal Logical Files (ILF)**
+  - **External Interface Files (EIF)**
+- Includes **Value Adjustment Factor (VAF)** for final FP calculation.
+Total Lines of Code: 5574
+
+Halstead Metrics Results:
+n1 (Unique Operators): 15
+n2 (Unique Operands): 1343
+N1 (Total Operators): 12018
+N2 (Total Operands): 18891
+Vocabulary (n): 1358
+Length (N): 30909
+Volume (V): 41974422
+Difficulty (D): 105.4970215934475
+Effort (E): 4428176504.106478
+Estimated Bugs (B): 13991.474
+
+Total Cyclomatic Complexity: 87
+
+Unadjusted Function Points (UFP): 69
+Adjusted Function Points (FP): 71.76
+
+  
+
 
