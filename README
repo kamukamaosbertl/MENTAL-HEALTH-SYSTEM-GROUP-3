@@ -1,0 +1,64 @@
+ MHRAS implementation of leecture 5 concepts.
+│   ├── loc_counter.py          # LOC calculation
+│   ├── halstead_metrics.py     # Halstead’s Metrics
+│   ├── complexity.py           # Cyclomatic Complexity
+│   ├── function_points.py      # Function Points calculation
+│   ├── mental_health_system/   # PHP, JS, HTML, and CSS files
+├── 📜 README.md                # Documentation
+
+
+ Software Metrics about lecture 5
+ Software Metrics Implementation for Mental Health System
+
+ Project Overview
+This project implements **Software Metrics** concepts in a web-based **Mental Health System**. It analyzes the complexity, size, and maintainability of the codebase written in **HTML, CSS, JavaScript, and PHP**
+
+📏 Implemented Software Metrics
+ 1️⃣ Lines of Code (LOC)
+- Measures the total number of lines in **HTML, CSS, JS, and PHP** files.
+- Differentiates between **commented lines** and **effective code lines**.
+
+ 2️⃣ Halstead’s Metrics
+- Measures **operators** and **operands** in the source code.
+- Calculates:
+  - **Program Length (N)**
+  - **Program Vocabulary (n)**
+  - **Program Volume (V)**
+  - **Program Difficulty (D)**
+  - **Effort (E)**
+  - **Estimated Bugs (B)**
+
+ 3️⃣ Cyclomatic Complexity (McCabe's Complexity)
+- Determines the **complexity of the control flow** in the program.
+- Higher values indicate **higher complexity and maintenance cost**.
+
+### 4️⃣ Function Points (FP)
+- Measures software **functionality** based on:
+  - **External Inputs (EI)**
+  - **External Outputs (EO)**
+  - **External Inquiries (EQ)**
+  - **Internal Logical Files (ILF)**
+  - **External Interface Files (EIF)**
+- Includes **Value Adjustment Factor (VAF)** for final FP calculation.
+Total Lines of Code: 5574
+
+Halstead Metrics Results:
+n1 (Unique Operators): 15
+n2 (Unique Operands): 1343
+N1 (Total Operators): 12018
+N2 (Total Operands): 18891
+Vocabulary (n): 1358
+Length (N): 30909
+Volume (V): 41974422
+Difficulty (D): 105.4970215934475
+Effort (E): 4428176504.106478
+Estimated Bugs (B): 13991.474
+
+Total Cyclomatic Complexity: 87
+
+Unadjusted Function Points (UFP): 69
+Adjusted Function Points (FP): 71.76
+
+  
+
+
