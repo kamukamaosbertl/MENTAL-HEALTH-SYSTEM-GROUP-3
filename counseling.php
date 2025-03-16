@@ -24,6 +24,43 @@ include 'includes/header.php'; // Include header with navigation
         </section>
     </main>
 
+    <?php
+    // Function to calculate cyclomatic complexity
+    function calculateCyclomaticComplexity($code) {
+        $decisionPoints = preg_match_all('/\b(if|else if|for|while|case|catch)\b/', $code, $matches);
+        return 1 + $decisionPoints;
+    }
+
+    // Function to generate a simple control flow graph (CFG) representation
+    function generateCFG($code) {
+        $lines = explode("\n", $code);
+        $graph = [];
+        
+        foreach ($lines as $index => $line) {
+            $line = trim($line);
+            if (preg_match('/\b(if|else if|for|while|switch|case)\b/', $line)) {
+                $graph[] = "Node $index: Decision point ($line)";
+            } else {
+                $graph[] = "Node $index: Sequential ($line)";
+            }
+        }
+        
+        return $graph;
+    }
+
+    // Load and analyze the current file
+    $codeContent = file_get_contents(__FILE__);
+    $cyclomaticComplexity = calculateCyclomaticComplexity($codeContent);
+    $cfg = generateCFG($codeContent);
+    ?>
+
+    <div class="metrics-container">
+        <h2>Complexity Metrics</h2>
+        <p><strong>Cyclomatic Complexity:</strong> <?php echo $cyclomaticComplexity; ?></p>
+        <h3>Control Flow Graph (CFG)</h3>
+        <pre><?php echo implode("\n", $cfg); ?></pre>
+    </div>
+
 <?php
 include 'includes/footer.php'; // Include footer
 ?>
