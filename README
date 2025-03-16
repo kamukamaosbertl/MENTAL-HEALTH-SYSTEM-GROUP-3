@@ -1,4 +1,4 @@
-📦 Mental-Health-Metrics 
+ MHRAS implementation of leecture 5 concepts.
 │   ├── loc_counter.py          # LOC calculation
 │   ├── halstead_metrics.py     # Halstead’s Metrics
 │   ├── complexity.py           # Cyclomatic Complexity
@@ -7,7 +7,7 @@
 ├── 📜 README.md                # Documentation
 
 
- Software Metrics about lecture 4
+ Software Metrics about lecture 5
  Software Metrics Implementation for Mental Health System
 
  Project Overview
